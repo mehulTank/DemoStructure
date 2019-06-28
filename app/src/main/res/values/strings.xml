@@ -1,0 +1,102 @@
+<resources>
+
+    <!-- Project name -->
+    <string name="app_name_new">Demo App</string>
+
+    <string name="facebook_app_id">112204199406732</string>
+    <string name="fb_login_protocol_scheme">fb112204199406732</string>
+
+    <string name="settings">Settings</string>
+    <string name="no_result_found">No data found.</string>
+    <string name="no_servicelist_found">No Servicelist found.</string>
+    <string name="no_product_found">No Accessories found.</string>
+    <string name="no_notification_found">No Notification found.</string>
+    <string name="no_cart_found">Your Cartlist Empty.</string>
+    <string name="no_order_found">No Order Found.</string>
+
+    <!-- Navigation Menu -->
+    <string name="menu_product">Product</string>
+    <string name="menu_my_cart">My Cart</string>
+    <string name="menu_my_profile">My Profile</string>
+    <string name="menu_ewallet">E-Wallet</string>
+    <string name="menu_notification">Notification</string>
+    <string name="menu_myorder">My Orders</string>
+    <string name="menu_logout">Logout</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_book_service">Book Service</string>
+    <string name="menu_product_details">Product Details</string>
+    <string name="menu_may_cart">My Cart</string>
+    <string name="menu_change_psw">Change Password</string>
+    <string name="menu_confirm_order">Confirm Order</string>
+    <string name="menu_thank_you">Thank You!</string>
+    <string name="menu_add_wallate">Add Wallate</string>
+
+    <integer name="swing_anim_time">750</integer>
+    <string name="hint_search">Search</string>
+    <string name="actionbar_search_hint">Type here</string>
+
+    <!-- Common strings -->
+    <string name="please_wait">Please wait&#8230;</string>
+    <string name="check_connection">Check your network connection</string>
+    <string name="something_is_wrong">Something is wrong,Please try again latter.</string>
+    <string name="some_error_occurred">Some Error Occurred</string>
+    <string name="openDrawer">Navigation View Closed</string>
+    <string name="closeDrawer">Navigation View</string>
+
+
+    <!-- Validation Strings  -->
+    <string name="val_enter_username">Please enter username.</string>
+    <string name="val_enter_password">Please enter password.</string>
+    <string name="val_enter_email">Please enter email address.</string>
+    <string name="val_enter_valid_email">Please enter valid email address.</string>
+    <string name="val_enter_phone">Please enter phone number.</string>
+    <string name="val_enter_carname">Please enter car name.</string>
+    <string name="val_enter_date">Please select date.</string>
+    <string name="val_enter_time">Please select time.</string>
+    <string name="val_enter_type">Please select Service-Type.</string>
+    <string name="val_enter_customer_name">Please enter customer name.</string>
+    <string name="val_enter_amount">Please enter amount.</string>
+    <string name="val_enter_address">Please enter address.</string>
+    <string name="val_enter_customer_phone">Please enter customer phone number.</string>
+    <string name="val_enter_customer_address">Please enter customer address.</string>
+    <string name="val_enter_old_password">Please enter oldPassword.</string>
+    <string name="val_enter_new_password">Please enter newPassword.</string>
+    <string name="val_enter_confirm_password">Please enter confirmPassword.</string>
+    <string name="val_enter_new_confirm_password_not_match">New password and confirm password dose not match.</string>
+
+    <string name="signin">Sign In</string>
+    <string name="signup">Sign Up</string>
+    <string name="forgot_psw">Forgot Password</string>
+    <string name="create_new_account">Create a new account</string>
+    <string name="forgot_your_details">Forgot your details?</string>
+    <string name="already_have_account">Already have an Account?</string>
+
+    <string name="username">Username</string>
+    <string name="email">E-mail</string>
+    <string name="phone">Phone</string>
+    <string name="fname">Firstname</string>
+    <string name="password">Password</string>
+    <string name="address">Address</string>
+
+
+    <string name="btn_signin">Sign-In</string>
+    <string name="btn_signup">Sign-Up</string>
+    <string name="btn_change">Change Password</string>
+    <string name="forgot_password">Forgot Password</string>
+
+    <!-- Notification Filter  -->
+    <string name="lbl_All">All</string>
+    <string name="lbl_newsletter">Newsletter</string>
+    <string name="lbl_promotional_offer">Promotional Offer</string>
+    <string name="lbl_new_product_launch">New Product launch</string>
+    <string name="lbl_festivity">Festivity / Special greetings</string>
+
+    <string name="are_you_sure_do_you_want_to_logout">Are you sure,Do you want to Logout?</string>
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+    <string name="cancel">Cancel</string>
+    <string name="next">NEXT</string>
+    <string name="submit">submit</string>
+    <string name="or_connect_with_social">Or connect with social</string>
+
+</resources>

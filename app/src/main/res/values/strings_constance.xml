@@ -1,0 +1,72 @@
+<resources>
+
+
+    <!--http://sambhavlabs.com/app_automobile/api/-->
+
+    <string name="ws_scheme_http">http</string>
+    <string name="ws_host">sambhavlabs.com</string>
+    <string name="ws_pathsegment">app_automobile/api</string>
+
+    <string name="preferances_islogin">isLogin</string>
+    <string name="preferances_isNormallogin">preferances_isNormallogin</string>
+    <string name="preferances_userID">userId</string>
+    <string name="preferances_userName">userName</string>
+    <string name="preferances_userEmail">userEmail</string>
+    <string name="preferances_useAddress">userAddress</string>
+    <string name="preferances_userPhone">userPhone</string>
+    <string name="preferances_userProfilePic">UserProfilePic</string>
+    <string name="preferances_token">token</string>
+    <string name="preferances_cartids">cartids</string>
+    <string name="preferances_wallate">preferances_wallate</string>
+    <string name="preferances_temp_wallate">preferances_temp_wallate</string>
+
+
+    <string name="preferances_customer_id">customer id</string>
+    <string name="preferances_elm_firm_id">elm_firm_id</string>
+    <string name="preferances_elm_mattresstype_id">elm_mattresstype_id</string>
+    <string name="preferances_elm_collection_id">elm_collection_id</string>
+    <string name="preferances_elm_thickness_id">elm_thickness_id</string>
+    <string name="preferances_option_id">option_id</string>
+
+    <string name="startTimestamp">startTimestamp</string>
+    <string name="endTimestamp">endTimestamp</string>
+    <string name="is_alaram">is_alaram</string>
+
+    <string name="type">type</string>
+    <string name="value">value</string>
+    <string name="title_val">title value</string>
+    <string name="default_google_doc_viewer_url"><![CDATA[http://docs.google.com/gview?embedded=true&url=]]></string>
+    <string name="google_android_api_key">AIzaSyBe7-w3iC1TOnmju7lWjo02ToftlkQZZ_A</string>
+    <string name="latlong_val">latlong</string>
+    <string name="store_id">store id</string>
+    <string name="product_id">product id</string>
+    <string name="claim_id">claim id</string>
+    <string name="customer_id">customer id</string>
+    <string name="claim_title">claim title</string>
+    <string name="claim_des">claim des</string>
+    <string name="claim_date">claim date</string>
+    <string name="url_360">url 360 view</string>
+    <string name="startTime">startTime</string>
+    <string name="endTime">endTime</string>
+    <string name="notification_id">notification id</string>
+
+    <!--content type-->
+    <string name="lbl_html">HTML</string>
+    <string name="lbl_video">Video</string>
+    <string name="lbl_image">Image</string>
+    <string name="lbl_pdf">PDF</string>
+    <string name="tab_position">tab_position</string>
+    <string name="product_details">productDetailModel</string>
+    <string name="type_admin">Admin</string>
+
+    <string name="notification_count">notification count</string>
+    <string name="page_corporate">corporate</string>
+    <string name="page_recognition">recognition</string>
+    <string name="bdl_service_type">bdl_service_type</string>
+    <string name="bdl_carname">bdl_carname</string>
+    <string name="bdl_service_date">bdl_service_date</string>
+    <string name="bdl_service_time">bdl_service_time</string>
+    <string name="bdl_service_instruction">bdl_service_instruction</string>
+    <string name="bdl_product_id">product_id</string>
+
+</resources>

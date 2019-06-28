@@ -1,0 +1,299 @@
+<resources>
+
+
+    <style name="AppTheme" parent="MyMaterialTheme.Base">
+
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+
+    <style name="MyMaterialTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <!--<item name="android:windowBackground">@drawable/splash_app_logo</item>-->
+    </style>
+
+
+
+
+    <!-- ToolBar -->
+    <style name="ToolBarStyle" parent="Theme.AppCompat">
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+        <item name="actionMenuTextColor">@android:color/white</item>
+
+    </style>
+
+
+    <style name="customeDialog" parent="android:Theme.Holo.Dialog">
+        <item name="android:alertDialogStyle">@style/CustomAlertDialogStyle</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:textColorPrimary">@color/colorPrimary</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="CustomAlertDialogStyle">
+        <item name="android:bottomBright">@android:color/transparent</item>
+        <item name="android:bottomDark">@android:color/transparent</item>
+        <item name="android:bottomMedium">@android:color/transparent</item>
+        <item name="android:centerBright">@android:color/transparent</item>
+        <item name="android:centerDark">@android:color/transparent</item>
+        <item name="android:centerMedium">@android:color/transparent</item>
+        <item name="android:fullBright">@android:color/transparent</item>
+        <item name="android:fullDark">@android:color/transparent</item>
+        <item name="android:topBright">@android:color/transparent</item>
+        <item name="android:topDark">@android:color/transparent</item>
+    </style>
+
+    <style name="tvActionbarTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/font_white</item>
+        <item name="android:textSize">@dimen/font_18sp</item>
+    </style>
+
+
+    <style name="tvLoginTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/_20sdp</item>
+    </style>
+
+    <style name="tvForgotTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/forgot_link_color</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+    </style>
+
+
+
+    <style name="TextStyle.notificationlist.title" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/_14sdp</item>
+        <item name="android:textColor">@color/peraferance_header_color</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="TextStyle.notificationlist.date" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="android:textColor">@color/collection_color</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="TextStyle.notificationlist.des" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/_13sdp</item>
+        <item name="android:textColor">@color/collection_color</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="TextStyle.row_mattresesscare.title" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="android:textColor">@color/peraferance_header_color</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:padding">@dimen/_4sdp</item>
+    </style>
+
+    <style name="TextStyle.row_mattresesscare.description" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/_13sdp</item>
+        <item name="android:textColor">@color/collection_color</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:padding">@dimen/_4sdp</item>
+    </style>
+
+    <style name="TextStyle.row_mattresesscare.date" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="android:textColor">@color/menu_text_selector</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:padding">@dimen/_4sdp</item>
+    </style>
+
+
+    <style name="TextStyle.row_slidemenu_title" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/_14sdp</item>
+        <item name="android:textColor">@color/menu_text_selector</item>
+        <item name="android:padding">@dimen/_10sdp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginLeft">@dimen/_10sdp</item>
+    </style>
+
+    <style name="TextStyle.empty_title" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/font_18sp</item>
+        <item name="android:textColor">@color/row_view</item>
+    </style>
+
+    <style name="EditTextStyle.claim_title" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/_18sdp</item>
+        <item name="android:textColor">@color/claim_edittext_color</item>
+        <item name="android:textColorHint">@color/claim_edittext_hint_color</item>
+    </style>
+
+
+
+    <style name="EditTextStyle.login_btn" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/_16sdp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/drawable_login_button</item>
+    </style>
+
+
+    <style name="TextLabelIn" parent="TextAppearance.AppCompat">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textColorHint">@color/colorPrimary</item>
+        <!--<item name="android:padding">@dimen/_3sdp</item>-->
+        <!--<item name="android:textSize">@dimen/_15sdp</item>-->
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="colorControlNormal">@color/colorPrimary</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+    </style>
+
+
+    <style name="picture_dialog_style" parent="@android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowAnimationStyle">@style/PauseDialogAnimation</item>
+    </style>
+
+    <style name="PauseDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_down</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_up</item>
+    </style>
+
+
+    <style name="FabStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/_25sdp</item>
+        <item name="android:src">@drawable/add</item>
+        <item name="borderWidth">0dp</item>
+        <item name="elevation">6dp</item>
+        <item name="pressedTranslationZ">12dp</item>
+    </style>
+
+
+    <style name="SpinnerStyle" parent="Widget.AppCompat.Spinner.DropDown">
+        <item name="android:layout_marginTop">@dimen/margin_5dp</item>
+        <item name="android:dropDownSelector">@null</item>
+        <item name="android:spinnerMode">dropdown</item>
+        <item name="android:minHeight">@dimen/_35sdp</item>
+    </style>
+
+    <style name="book_service_cardview" parent="CardView">
+        <item name="android:layout_height">@dimen/_50sdp</item>
+        <item name="android:layout_marginTop">@dimen/_10sdp</item>
+        <item name="cardCornerRadius">@dimen/_3sdp</item>
+        <item name="cardElevation">@dimen/_3sdp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+
+    <style name="book_service_cardview_inner_edittext" parent="Widget.AppCompat.EditText">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:padding">@dimen/_5sdp</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textColorHint">@color/forgot_link_color</item>
+        <item name="android:background">@android:color/transparent</item>
+
+    </style>
+
+    <style name="book_service_cardview_inner_textView">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:padding">@dimen/_5sdp</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textColorHint">@color/forgot_link_color</item>
+        <item name="android:background">@android:color/transparent</item>
+
+    </style>
+
+    <style name="StatespinnerTextStyle">
+        <item name="android:textColor">@color/color_black</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="android:maxLines">1</item>
+
+    </style>
+
+
+    <style name="TaskPropertyspinnerTextStyle">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="android:maxLines">1</item>
+
+    </style>
+
+    <style name="TextStyle.fulltextinfo" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/_13sdp</item>
+        <item name="android:textColor">@color/collection_color</item>
+    </style>
+
+    <style name="TextStyle.fulltextinfo_value" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/_13sdp</item>
+        <item name="android:textColor">@color/color_black</item>
+    </style>
+
+    <style name="TextStyle.fproductdetails_name" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/_18sdp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:paddingStart">@dimen/_11sdp</item>
+    </style>
+
+    <style name="TextStyle.fproductdetails_categoryname" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/_14sdp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:paddingStart">@dimen/_12sdp</item>
+        <item name="android:paddingTop">@dimen/_2sdp</item>
+
+    </style>
+
+    <style name="TextStyle.fproductdetails_skuname" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:paddingStart">@dimen/_13sdp</item>
+        <item name="android:paddingTop">@dimen/_3sdp</item>
+
+    </style>
+
+
+    <style name="TextStyle.fproductdetails_nearsstore" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/_13sdp</item>
+        <item name="android:textColor">@color/collection_color</item>
+        <item name="android:padding">@dimen/_8sdp</item>
+        <item name="android:drawablePadding">@dimen/_5sdp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>

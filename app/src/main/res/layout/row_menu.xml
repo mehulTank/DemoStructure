@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/row_menu_llitems"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/_5sdp"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/row_menu_ivIcon"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/margin_left_5dp"/>
+
+        <com.automobile.service.customecomponent.CustomTextView
+            android:id="@+id/row_menu_tvTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            style="@style/TextStyle.row_slidemenu_title"
+            android:layout_weight="1"
+            app:font_name="GothamHTF-Medium.otf"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "669089945253",
+    "firebase_url": "https://starlit-vim-188205.firebaseio.com",
+    "project_id": "starlit-vim-188205",
+    "storage_bucket": "starlit-vim-188205.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:669089945253:android:3412bc80cb8470b8",
+        "android_client_info": {
+          "package_name": "com.automobile.service"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "669089945253-ues467l9pdvlvg7d7ttgbgu8tji4u5ss.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.automobile.service",
+            "certificate_hash": "15e8ad79a8ce3b3048b4cceaec332f3df9e8b148"
+          }
+        },
+        {
+          "client_id": "669089945253-earq01uecstsoqfbcdq8c0cch8h8pohe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEn-T-4oC74gZeYcEWaVQzL-mHHFNu85c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "669089945253-earq01uecstsoqfbcdq8c0cch8h8pohe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,23 @@
+<resources>
+    <dimen name="navdrawer_width">260dp</dimen>
+    <dimen name="ldrawer_drawableSize">50dp</dimen>
+    <dimen name="ldrawer_barSize">18dp</dimen>
+    <dimen name="ldrawer_topBottomBarArrowSize">11dp</dimen>
+    <dimen name="ldrawer_thickness">2dp</dimen>
+    <dimen name="ldrawer_gapBetweenBars">3dp</dimen>
+    <dimen name="ldrawer_middleBarArrowSize">16dp</dimen>
+    <dimen name="menu_row_padding">18dp</dimen>
+    <dimen name="menu_section_hieght">11dp</dimen>
+    <dimen name="log_reg_left_icon_height_width">25dp</dimen>
+    <dimen name="menu_header_image_width_hieght">80dp</dimen>
+
+    <!-- HomeFragment Adapter -->
+    <dimen name="profileImage_witdh_hieght">43dp</dimen>
+    <dimen name="searchbox_height">55dp</dimen>
+    <dimen name="contact_details_rounded_witdh_hieght">55dp</dimen>
+    <dimen name="contact_details_row_hieght">120dp</dimen>
+
+    <dimen name="rippleStrokeWidth">2dp</dimen>
+    <dimen name="rippleRadius">64dp</dimen>
+
+</resources>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.automobile.service.comman.SlidingLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment_profile_llContainer"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/fragment_profile_ivProfileRound"
+                android:layout_width="@dimen/_95sdp"
+                android:layout_height="@dimen/_95sdp"
+                android:src="@drawable/thumb_personel"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_gravity="center_horizontal"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    app:theme="@style/TextLabelIn">
+
+                    <com.automobile.service.customecomponent.CustomEdittext
+                        android:id="@+id/fragment_profile_etUsername"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/username"
+                        app:font_name="GothamHTF-Book.otf"
+                        android:inputType="textPersonName"
+                        />
+                </android.support.design.widget.TextInputLayout>
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    app:theme="@style/TextLabelIn">
+
+                    <com.automobile.service.customecomponent.CustomEdittext
+                        android:id="@+id/fragment_profile_etEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/email"
+                        android:inputType="textEmailAddress"
+                        app:font_name="GothamHTF-Book.otf" />
+                </android.support.design.widget.TextInputLayout>
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    app:theme="@style/TextLabelIn">
+
+                    <com.automobile.service.customecomponent.CustomEdittext
+                        android:id="@+id/fragment_profile_etAddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/address"
+                        android:inputType="textMultiLine"
+                        android:maxLines="5"
+                        app:font_name="GothamHTF-Book.otf" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    app:theme="@style/TextLabelIn">
+
+                    <com.automobile.service.customecomponent.CustomEdittext
+                        android:id="@+id/fragment_profile_etPhone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/phone"
+                        android:inputType="phone"
+                        app:font_name="GothamHTF-Book.otf" />
+                </android.support.design.widget.TextInputLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_25sdp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <com.automobile.service.customecomponent.CustomButton
+                        android:id="@+id/fragment_profile_btnChangePsw"
+                        style="@style/EditTextStyle.login_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_45sdp"
+                        android:text="@string/btn_change"
+                        android:textAllCaps="false"
+                        app:font_name="GothamHTF-Bold.otf" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</com.automobile.service.comman.SlidingLinearLayout>

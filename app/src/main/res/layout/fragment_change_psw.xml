@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.automobile.service.comman.SlidingLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment_changepsw__llContainer"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    app:theme="@style/TextLabelIn">
+
+                    <com.automobile.service.customecomponent.CustomEdittext
+                        android:id="@+id/fragment_changepsw_etOldPsw"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Old Password"
+                        android:inputType="textPassword"
+                        app:font_name="GothamHTF-Book.otf" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    app:theme="@style/TextLabelIn">
+
+                    <com.automobile.service.customecomponent.CustomEdittext
+                        android:id="@+id/fragment_changepsw_etNewPsw"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="New Password"
+                        android:inputType="textPassword"
+                        app:font_name="GothamHTF-Book.otf" />
+                </android.support.design.widget.TextInputLayout>
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    app:theme="@style/TextLabelIn">
+
+                    <com.automobile.service.customecomponent.CustomEdittext
+                        android:id="@+id/fragment_changepsw_etConfirmPsw"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Confirm Password"
+                        android:inputType="textPassword"
+                        app:font_name="GothamHTF-Book.otf" />
+                </android.support.design.widget.TextInputLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_25sdp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <com.automobile.service.customecomponent.CustomButton
+                        android:id="@+id/fragment_changepsw__btnChangePsw"
+                        style="@style/EditTextStyle.login_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_45sdp"
+                        android:text="@string/btn_change"
+                        android:textAllCaps="false"
+                        app:font_name="GothamHTF-Bold.otf" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</com.automobile.service.comman.SlidingLinearLayout>

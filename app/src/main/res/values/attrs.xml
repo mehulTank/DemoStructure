@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomTextView">
+        <attr name="font_name" format="string"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="CustomEditText">
+        <attr name="font_name_et" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="CustomBottomSheetBehavior">
+        <attr name="anchorPoint" format="dimension"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="RippleBackground">
+        <attr name="rb_color" format="color" />
+        <attr name="rb_strokeWidth" format="dimension"/>
+        <attr name="rb_radius" format="dimension"/>
+        <attr name="rb_duration" format="integer"/>
+        <attr name="rb_rippleAmount" format="integer"/>
+        <attr name="rb_scale" format="float"/>
+        <attr name="rb_type" format="enum">
+            <enum name="fillRipple" value="0"/>
+            <enum name="strokeRipple" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="FooterLayout">
+        <attr name="ft_color" format="color"/>
+        <attr name="ft_anim_duration" format="integer"/>
+        <attr name="ft_container_gravity" format="enum">
+            <enum name="start" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="end" value="2"/>
+        </attr>
+        <attr name="ft_fab_type" format="enum">
+            <enum name="mini" value="40"/>
+            <enum name="normal" value="56"/>
+        </attr>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,105 @@
+<resources>
+
+
+    <!-- Layout Margins and Paddings -->
+
+    <dimen name="margin_2dp">2dp</dimen>
+    <dimen name="margin_4dp">4dp</dimen>
+    <dimen name="margin_8dp">8dp</dimen>
+    <dimen name="margin_5dp">5dp</dimen>
+    <dimen name="margin_10dp">10dp</dimen>
+    <dimen name="margin_12dp">12dp</dimen>
+    <dimen name="margin_16dp">16dp</dimen>
+    <dimen name="margin_18dp">18dp</dimen>
+    <dimen name="margin_20dp">20dp</dimen>
+    <dimen name="margin_22dp">22dp</dimen>
+    <dimen name="margin_24dp">24dp</dimen>
+    <dimen name="margin_26dp">26dp</dimen>
+    <dimen name="margin_28dp">28dp</dimen>
+    <dimen name="margin_30dp">30dp</dimen>
+    <dimen name="margin_65dp">65dp</dimen>
+    <dimen name="margin_35dp">35dp</dimen>
+    <dimen name="margin_40dp">40dp</dimen>
+    <dimen name="margin_50dp">50dp</dimen>
+    <dimen name="margin_55dp">55dp</dimen>
+    <dimen name="margin_60dp">60dp</dimen>
+    <dimen name="margin_70dp">70dp</dimen>
+    <dimen name="margin_80dp">80dp</dimen>
+    <dimen name="margin_left_2dp">2dp</dimen>
+    <dimen name="margin_left_3dp">3dp</dimen>
+    <dimen name="margin_left_5dp">5dp</dimen>
+    <dimen name="margin_left_8dp">8dp</dimen>
+    <dimen name="margin_left_10dp">10dp</dimen>
+    <dimen name="margin_left_15dp">15dp</dimen>
+    <dimen name="margin_left_20dp">20dp</dimen>
+    <dimen name="margin_left_30dp">30dp</dimen>
+    <dimen name="margin_right_5dp">5dp</dimen>
+    <dimen name="margin_right_10dp">10dp</dimen>
+    <dimen name="margin_right_15dp">15dp</dimen>
+    <dimen name="margin_right_20dp">20dp</dimen>
+    <dimen name="margin_right_24dp">24dp</dimen>
+    <dimen name="margin_right_30dp">30dp</dimen>
+    <dimen name="margin_top_5dp">5dp</dimen>
+    <dimen name="margin_top_8dp">8dp</dimen>
+    <dimen name="margin_top_10dp">10dp</dimen>
+    <dimen name="margin_top_15dp">15dp</dimen>
+    <dimen name="margin_top_20dp">20dp</dimen>
+    <dimen name="margin_bottom_5dp">5dp</dimen>
+    <dimen name="margin_bottom_10dp">10dp</dimen>
+    <dimen name="margin_bottom_15dp">15dp</dimen>
+    <dimen name="margin_bottom_20dp">20dp</dimen>
+    <dimen name="padding_5dp">5dp</dimen>
+    <dimen name="padding_10dp">10dp</dimen>
+    <dimen name="padding_20dp">20dp</dimen>
+    <dimen name="padding_left_5dp">5dp</dimen>
+    <dimen name="padding_left_10dp">10dp</dimen>
+    <dimen name="padding_left_15dp">15dp</dimen>
+    <dimen name="padding_left_20dp">20dp</dimen>
+    <dimen name="padding_right_5dp">5dp</dimen>
+    <dimen name="padding_right_10dp">10dp</dimen>
+    <dimen name="padding_right_15dp">15dp</dimen>
+    <dimen name="padding_right_20dp">20dp</dimen>
+    <dimen name="padding_top_5dp">5dp</dimen>
+    <dimen name="padding_top_2dp">2dp</dimen>
+    <dimen name="padding_top_10dp">10dp</dimen>
+    <dimen name="padding_top_15dp">15dp</dimen>
+    <dimen name="padding_top_20dp">20dp</dimen>
+    <dimen name="padding_bottom_5dp">5dp</dimen>
+    <dimen name="padding_bottom_8dp">8dp</dimen>
+    <dimen name="padding_bottom_10dp">10dp</dimen>
+    <dimen name="padding_bottom_15dp">15dp</dimen>
+    <dimen name="padding_bottom_20dp">20dp</dimen>
+
+    <!-- Font size -->
+
+    <dimen name="font_8sp">8sp</dimen>
+    <dimen name="font_10sp">10sp</dimen>
+    <dimen name="font_12sp">12sp</dimen>
+    <dimen name="font_14sp">14sp</dimen>
+    <dimen name="font_16sp">16sp</dimen>
+    <dimen name="font_18sp">18sp</dimen>
+    <dimen name="font_20sp">20sp</dimen>
+    <dimen name="font_22sp">22sp</dimen>
+    <dimen name="font_24sp">24sp</dimen>
+    <dimen name="font_26sp">26sp</dimen>
+    <dimen name="font_28sp">28sp</dimen>
+    <dimen name="font_30sp">30sp</dimen>
+
+    <!-- Default Padding -->
+    <dimen name="padding_1">1dp</dimen>
+    <dimen name="padding_3">3dp</dimen>
+    <dimen name="padding_5">5dp</dimen>
+    <dimen name="padding_7">7dp</dimen>
+    <dimen name="padding_10">10dp</dimen>
+    <dimen name="padding_15">15dp</dimen>
+    <dimen name="padding_20">20dp</dimen>
+    <dimen name="padding_25">25dp</dimen>
+    <dimen name="padding_30">30dp</dimen>
+
+
+    <dimen name="filter_menu_search_width">@dimen/_170sdp</dimen>
+    <dimen name="fab_margin">@dimen/_16sdp</dimen>
+    <dimen name="anchor_point">@dimen/_300sdp</dimen>
+    <dimen name="bottom_sheet_peek_height">@dimen/_65sdp</dimen>
+
+</resources>
