@@ -1,4 +1,4 @@
-package com.dyrct.app.sqlite.db;
+package com.automobile.service.sqlite;
 
 public class ContactKey 
 {
